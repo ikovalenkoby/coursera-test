@@ -1,0 +1,101 @@
+body {
+    font-family: 'Comic Helvetic', Arial;
+    font-size: 16px;
+    margin: 0 10%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    font-size: 14px;
+    border: 2px solid black;
+    background-color: #999999;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    top: 0;
+    left: 65%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+    text-align: center;
+    width: 35%;
+    font-size: 18px;
+    margin: 0;
+}
+
+.section1 h2 {
+    background-color: #d59898;
+}
+
+.section2 h2 {
+    background-color: #c14543;
+    color: white;
+}
+
+.section3 h2{
+    background-color: #e5d198;
+}
+p {
+    padding: 0 10px;
+    margin: 8px 0;
+}
+
+@media (min-width:768px) {
+    .section1  {
+       width: 48%;
+        float: left;
+    }
+
+    .section2 {
+        width: 48%;
+        float: right;
+    }
+
+    .section3{
+        clear: both;
+    }
+
+    .section3 h2{
+        left: 83%;
+        width: 17%;
+    }
+}
+
+@media (min-width: 992px) {
+    .section1  {
+        width: 32%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .section2 {
+        margin-right: 2%;
+        width: 32%;
+        float: left;
+    }
+
+    .section3{
+        clear: none;
+        width: 32%;
+        float: left;
+    }
+
+    .section3 h2{
+        left: 65%;
+        width: 35%;
+    }
+}
+
